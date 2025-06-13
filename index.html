@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tienda online fenty beuty</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fenty.css" />
+  </head>
+<body class="body">
+    <header class="header">
+    <h1 class="text-center"><img src="imagenesfenty/logofenty.png" alt="fenty beauty" width="300"></h1>
+    <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">inicio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+ <div class="carrito-menu">
+          <a class="nav-link" href="java.html">
+            <img src="imagenesfenty/lupa.png" alt="icono lupa" width="30" height="30" />
+          </a> 
+  </div>
+  <div id="carrito" class="carrito-menu">
+         <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasCarrito" role="button">
+  <img src="imagenesfenty/carrito.png" alt="icono carrito" width="30" height="30" />
+</a>
+         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCarrito" aria-labelledby="carritoLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="carritoLabel">Tu carrito</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul id="lista-carrito"></ul>
+    <p>Total de productos: <span id="cantidad">0</span></p>
+    
+  </div>
+</div>
+  </div>
+</ul>
+<p>esto es un simulador de una tienda virtual, que al apretar un boton , lo agrega al carrito ,dice el total de productos y te da la eleccion de eliminar cada uno de ellos.</p>
+<img src="imagenesfenty/fentyportada.webp" class="img-fluid" alt="...">
+</header>
+<main>
+  <section class="container mt-5">
+    <div class="row gx-5 gy-4">
+    
+      <!-- Tarjeta 1 -->
+      <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
+        <article class="text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenesfenty/01.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">gloss bomb ice</h5>
+              <p class="card-text">Brillo de labios transparente con efecto refrescante.</p>
+              <a href="#" id="btn1" data-id="1"class="btn">Agregar al carrito</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Tarjeta 2 -->
+      <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
+        <article class="text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenesfenty/02.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">aceite gloss bomb</h5>
+              <p class="card-text">Obtén la comodidad hidratante de un aceite de labios +  brillo </p>
+              <a href="#"id="btn2" data-id="2"  class="btn">Agregar al carrito</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
+        <article class="text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenesfenty/03.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">máscara de pestañas thicc</h5>
+              <p class="card-text">Crea unas pestañas levantadas con esta máscara</p>
+              <a href="#" id="btn3" data-id="3" class="btn">Agregar al carrito</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
+        <article class="text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenesfenty/04.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">prebase de pestañas</h5>
+              <p class="card-text">Potencia tu rímel para unas pestañas más hermosas</p>
+              <a href="#" id="btn4" data-id="4" class="btn">Agregar al carrito</a>
+            </div>
+          </div>
+        </article>
+      </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
+        <article class="text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenesfenty/05.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">match stix contour skinstick</h5>
+              <p class="card-text">barra de contorno mate, ligera y de larga duración</p>
+              <a href="#" id="btn5" data-id="1"class="btn">Agregar al carrito</a>
+            </div>
+         </div>
+       </article>
+      </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
+        <article class="text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenesfenty/06.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">rubor en polvo suede </h5>
+              <p class="card-text">luce audaz y se siente sedoso,en tonos ricos y fáciles de difuminar</p>
+              <a href="#" id="btn6" data-id="1"class="btn">Agregar al carrito</a>
+            </div>
+          </div>
+        </article>
+      </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
+        <article class="text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenesfenty/07.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">spray fijador y prolongador</h5>
+              <p class="card-text">fija tu look e hidrata tu piel con este spray fijador</p>
+              <a href="#" id="btn7" data-id="1"class="btn">Agregar al carrito</a>
+            </div>
+          </div>
+        </article>
+      </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
+        <article class="text-center">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenesfenty/08.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">corrector fenty</h5>
+              <p class="card-text">resistente a la decoloración y a las arrugas</p>
+              <a href="#" id="btn8" data-id="1"class="btn">Agregar al carrito</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+
+</footer>
+    <script src="js/main.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  
+</body>
+</html>
