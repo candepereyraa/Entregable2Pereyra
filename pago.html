@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pantalla de pago</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fenty.css" />
+    
+</head>
+<header>
+    <h1 class="text-center"><img src="imagenesfenty/logofenty.png" alt="fenty beauty" width="300"></h1>
+</header>
+<body class="body-cuerpo">
+    <div class="formulario-container">
+    <h2>contacto</h2>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="correo electronico" aria-label="Username"
+            aria-describedby="basic-addon1">
+    </div>
+    <h2>entrega</h2>
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Pais/Region</option>
+        <option value="1">Argentina</option>
+        <option value="2">Uruguay</option>
+        <option value="3">Brasil</option>
+        <option value="3">España</option>
+    </select>
+
+    <div class="input-group mb-3">
+        <input id="input1" type="text" class="form-control" placeholder="direccion" aria-label="Amount (to the nearest dollar)"></input>
+    </div>
+    <div class="input-group">
+        <input id="input2" class="form-control" placeholder="casa,departamento,etc" aria-label="With textarea"></input>
+    </div>
+
+    <div class="input-group mb-3">
+        <input id="input3" type="text" class="form-control" placeholder="nombre" aria-label="Username"></input>
+        <input id="input4" type="text" class="form-control" placeholder="apellidos" aria-label="Server"></input>
+    </div>
+
+    <div class="input-group">
+        <textarea id="input5"  class="form-control" placeholder="telefono" aria-label="With textarea"></textarea>
+    </div>
+    <h2>pago</h2>
+     <div class="mb-3">
+    <label for="basic-url" class="form-label">solo pago con tarjeta</label>
+    <div class="input-group">
+        <input id="input6" type="text" class="form-control" placeholder="numero de tarjeta"
+            aria-describedby="basic-addon3 basic-addon4"></input>
+    </div>
+    </div>
+    <div class="input-group mb-3">
+        <input id="input7" type="text" class="form-control" placeholder="fecha de vencimiento" aria-label="Username"></input>
+        <input id="input8" type="text" class="form-control" placeholder="codigo de seguridad" aria-label="Server"></input>
+    </div>
+    <div class="input-group mb-3">
+        <input id="input9"  type="text" class="form-control" placeholder="nombre de titular"
+            aria-label="Amount (to the nearest dollar)"></input>     
+    </div>
+    <button id="pagohecho" class="boton-pago">Pagar</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
