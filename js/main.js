@@ -168,3 +168,19 @@ function validarFormulario() {
       });
     });
   }
+window.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('input0').value = 'correofalso@gmail.com'
+  document.getElementById('input1').value = 'Calle Falsa 123';
+  document.getElementById('input2').value = 'Departamento 4B';
+  document.getElementById('input3').value = 'Juan';
+  document.getElementById('input4').value = 'Pérez';
+  document.getElementById('input5').value = '123456789';
+  document.getElementById('input6').value = '1234 5678 9876 5432';
+  document.getElementById('input7').value = '12/26';
+  document.getElementById('input8').value = '123';
+  document.getElementById('input9').value = 'Juan Pérez';
+  
+  // Para el select (país)
+  const selectPais = document.querySelector('select.form-select');
+  selectPais.value = '1'; // Por ejemplo, Argentina (value="1")
+});
