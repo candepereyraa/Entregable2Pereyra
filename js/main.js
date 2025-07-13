@@ -117,6 +117,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+function validarFormulario() {
+  const inputs = document.querySelectorAll(".form-control"); 
+  for (let input of inputs) {
+    if (!input.value.trim()) {
+      return false; //
+    }
+  }
+  return true; 
+}
   const botonPago = document.getElementById("pagohecho");
   if (botonPago) {
     botonPago.addEventListener("click", () => {
@@ -159,18 +168,3 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
-document.addEventListener("DOMContentLoaded", () => {
-  const botonPago = document.getElementById("pagohecho");
-  botonPago.addEventListener("click", () => {
-    const campos = document.querySelectorAll(".input");
-    let vacios = false;
-    campos.forEach(campo => {
-      if (campo.value.trim() === "") vacios = true;
-    });
-    if (vacios) {
-      alert("Hay campos vacíos");
-    } else {
-      alert("Formulario OK");
-    }
-  });
-});
