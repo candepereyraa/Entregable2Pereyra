@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nombre": "Gloss Bomb Ice",
+    "descripcion": "Brillo de labios transparente con efecto refrescante.",
+    "precio": 12000,
+    "imagen": "imagenesfenty/01.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Aceite Gloss Bomb",
+    "descripcion": "Comodidad hidratante de un aceite de labios + brillo.",
+    "precio": 12000,
+    "imagen": "imagenesfenty/02.webp"
+  },
+  {
+  "id": 3,
+  "nombre": "máscara de pestañas thicc",
+  "precio": 19000,
+  "imagen": "imagenesfenty/03.webp"
+  },  
+  {
+  "id": 4,
+  "nombre": "prebase de pestañas",
+  "precio": 19000,
+  "imagen": "imagenesfenty/04.webp"
+   },
+   {
+  "id": 5,
+  "nombre": "match stix contour skinstick",
+  "precio": 20000,
+  "imagen": "imagenesfenty/05.webp"
+},
+{
+  "id": 6,
+  "nombre": "rubor en polvo suede",
+  "precio": 15000,
+  "imagen": "imagenesfenty/06.jpg"
+},
+{
+  "id": 7,
+  "nombre": "spray fijador y prolongador",
+  "precio": 21000,
+  "imagen": "imagenesfenty/07.webp"
+},
+{
+  "id": 8,
+  "nombre": "corrector fenty",
+  "precio": 19000,
+  "imagen": "imagenesfenty/08.jpg"
+}
+]

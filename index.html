@@ -22,7 +22,7 @@
             <img src="imagenesfenty/lupa.png" alt="icono lupa" width="30" height="30" />
           </a> 
   </div>
-  <div id="carrito" class="carrito-menu">
+  <div id="carrito" href="carrito.html" class="carrito-menu">
          <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasCarrito" role="button">
   <img src="imagenesfenty/carrito.png" alt="icono carrito" width="30" height="30" />
 </a>
@@ -43,123 +43,14 @@
 <p>esto es un simulador de una tienda virtual, que al apretar un boton , lo agrega al carrito ,dice el total de productos y te da la eleccion de eliminar cada uno de ellos.</p>
 <img src="imagenesfenty/fentyportada.webp" class="img-fluid" alt="...">
 </header>
-<main>
-  <section class="container mt-5">
-    <div class="row gx-5 gy-4">
-    
-      <!-- Tarjeta 1 -->
-      <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
-        <article class="text-center">
-          <div class="card" style="width: 18rem;">
-            <img src="imagenesfenty/01.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">gloss bomb ice</h5>
-              <p class="card-text">Brillo de labios transparente con efecto refrescante.</p>
-              <p>$12000</p>
-              <a href="#" id="btn1" data-id="1"class="btn">Agregar al carrito</a>
-            </div>
-          </div>
-        </article>
-      </div>
 
-      <!-- Tarjeta 2 -->
-      <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
-        <article class="text-center">
-          <div class="card" style="width: 18rem;">
-            <img src="imagenesfenty/02.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">aceite gloss bomb</h5>
-              <p class="card-text">Obtén la comodidad hidratante de un aceite de labios +  brillo </p>
-              <p>$12000</p>
-              <a href="#"id="btn2" data-id="2"  class="btn">Agregar al carrito</a>
-            </div>
-          </div>
-        </article>
+  <main>
+    <section class="container mt-5">
+      <div class="row gx-5 gy-4" id="contenedor-productos">
+        <!-- Aquí se cargarán dinámicamente las tarjetas de productos -->
       </div>
-
-      <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
-        <article class="text-center">
-          <div class="card" style="width: 18rem;">
-            <img src="imagenesfenty/03.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">máscara de pestañas thicc</h5>
-              <p class="card-text">Crea unas pestañas levantadas con esta máscara</p>
-              <p>$19000</p>
-              <a href="#" id="btn3" data-id="3" class="btn">Agregar al carrito</a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
-        <article class="text-center">
-          <div class="card" style="width: 18rem;">
-            <img src="imagenesfenty/04.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">prebase de pestañas</h5>
-              <p class="card-text">Potencia tu rímel para unas pestañas más hermosas</p>
-              <p>$19000</p>
-              <a href="#" id="btn4" data-id="4" class="btn">Agregar al carrito</a>
-            </div>
-          </div>
-        </article>
-      </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
-        <article class="text-center">
-          <div class="card" style="width: 18rem;">
-            <img src="imagenesfenty/05.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">match stix contour skinstick</h5>
-              <p class="card-text">barra de contorno mate, ligera y de larga duración</p>
-              <p>$20000</p>
-              <a href="#" id="btn5" data-id="5"class="btn">Agregar al carrito</a>
-            </div>
-         </div>
-       </article>
-      </div>
-            <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
-        <article class="text-center">
-          <div class="card" style="width: 18rem;">
-            <img src="imagenesfenty/06.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">rubor en polvo suede </h5>
-              <p class="card-text">luce audaz y se siente sedoso,en tonos ricos y fáciles de difuminar</p>
-              <p>$15000</p>
-              <a href="#" id="btn6" data-id="6"class="btn">Agregar al carrito</a>
-            </div>
-          </div>
-        </article>
-      </div>
-            <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
-        <article class="text-center">
-          <div class="card" style="width: 18rem;">
-            <img src="imagenesfenty/07.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">spray fijador y prolongador</h5>
-              <p class="card-text">fija tu look e hidrata tu piel con este spray fijador</p>
-              <p>$21000</p>
-              <a href="#" id="btn7" data-id="7"class="btn">Agregar al carrito</a>
-            </div>
-          </div>
-        </article>
-      </div>
-            <div class="col-12 col-md-6 col-lg-3 mb-4 p-2">
-        <article class="text-center">
-          <div class="card" style="width: 18rem;">
-            <img src="imagenesfenty/08.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">corrector fenty</h5>
-              <p class="card-text">resistente a la decoloración y a las arrugas</p>
-              <p>$19000</p>
-              <a href="#" id="btn8" data-id="8"class="btn">Agregar al carrito</a>
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-</main>
-
+    </section>
+  </main>
 <footer>
 
 </footer>
