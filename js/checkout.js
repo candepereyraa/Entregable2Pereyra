@@ -66,9 +66,14 @@ form.addEventListener("submit", function (e) {
   }
  
   
-  // Mostrar resumen
-  form.style.display = "none";
-  resumen.style.display = "block";
+   Swal.fire({
+    title: '¡Compra realizada con éxito!',
+    icon: 'success',
+    confirmButtonText: 'Ver resumen'
+  }).then(() => {
+    // Mostrar resumen y ocultar form
+    form.style.display = "none";
+    resumen.style.display = "block";
 
   datosUsuarioDiv.innerHTML = `
     <p><strong>Email:</strong> ${email}</p>
@@ -94,4 +99,5 @@ form.addEventListener("submit", function (e) {
 volverBtn.addEventListener("click", () => {
   resumen.style.display = "none";
   form.style.display = "block";
+});
 });

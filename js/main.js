@@ -70,7 +70,7 @@ function actualizarCarrito() {
     `;
   });
 
-  // Asignar evento eliminar para cada botón de eliminar (porque se generan dinámicamente)
+  // Asignar evento eliminar para cada botón de eliminar 
   const botonesEliminar = document.querySelectorAll(".boton-eliminar");
   botonesEliminar.forEach(boton => {
     boton.addEventListener("click", () => {
@@ -90,55 +90,6 @@ function totalAPagar() {
   totalElem.textContent = `Total a pagar: $${total.toFixed(2)}`;
 }
 
-// Validar formulario simple (que no esté vacío)
-function validarFormulario() {
-  const inputs = document.querySelectorAll(".form-control");
-  for (let input of inputs) {
-    if (!input.value.trim()) return false;
-  }
-  return true;
-}
 
-// Evento para el botón de pago (si existe)
-const botonPago = document.getElementById("pagohecho");
-if (botonPago) {
-  botonPago.addEventListener("click", () => {
-    if (!validarFormulario()) {
-      Swal.fire({
-        icon: "warning",
-        title: "Formulario incompleto",
-        text: "Por favor, completá todos los campos antes de continuar."
-      });
-      return;
-    }
 
-    let timerInterval;
-    Swal.fire({
-      title: "¡Procesando compra!",
-      html: "Confirmando en <b></b> milisegundos.",
-      timer: 2000,
-      timerProgressBar: true,
-      didOpen: () => {
-        Swal.showLoading();
-        const timer = Swal.getPopup().querySelector("b");
-        timerInterval = setInterval(() => {
-          timer.textContent = Swal.getTimerLeft();
-        }, 100);
-      },
-      willClose: () => {
-        clearInterval(timerInterval);
-      }
-    }).then(result => {
-      if (result.dismiss === Swal.DismissReason.timer) {
-        Swal.fire({
-          title: "¡Compra realizada!",
-          icon: "success",
-          confirmButtonText: "Volver al inicio"
-        }).then(() => {
-          localStorage.removeItem("carrito");
-          window.location.href = "index.html";
-        });
-      }
-    });
-  });
-}
+
