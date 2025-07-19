@@ -87,8 +87,10 @@ function actualizarCarrito() {
 function totalAPagar() {
   const totalElem = document.getElementById("total");
   let total = carrito.reduce((acc, prod) => acc + prod.precio, 0);
-  totalElem.textContent = `Total a pagar: $${total.toFixed(2)}`;
+  totalElem.textContent = total.toFixed(2)
 }
+
+
 
 
 

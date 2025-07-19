@@ -97,7 +97,6 @@ form.addEventListener("submit", function (e) {
 
 // Botón para volver
 volverBtn.addEventListener("click", () => {
-  resumen.style.display = "none";
-  form.style.display = "block";
+  window.location.href = "index.html";
 });
 });
