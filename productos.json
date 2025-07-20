@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "nombre": "Gloss Bomb Ice",
+    "nombre": "Gloss Bomb Ice Ice Cooling",
     "descripcion": "Brillo de labios transparente con efecto refrescante.",
     "precio": 12000,
     "imagen": "imagenesfenty/01.webp"
   },
   {
     "id": 2,
-    "nombre": "Aceite Gloss Bomb",
+    "nombre": "Aceite Gloss Bomb iluminador y brillo",
     "descripcion": "Comodidad hidratante de un aceite de labios + brillo.",
     "precio": 12000,
     "imagen": "imagenesfenty/02.webp"
@@ -16,36 +16,42 @@
   {
   "id": 3,
   "nombre": "máscara de pestañas thicc",
+   "descripcion": "Comodidad hidratante de un aceite de labios + brillo.",
   "precio": 19000,
   "imagen": "imagenesfenty/03.webp"
   },  
   {
   "id": 4,
-  "nombre": "prebase de pestañas",
+  "nombre": "prebase de pestañas hella extra mascara",
+   "descripcion": "Comodidad hidratante de un aceite de labios + brillo.",
   "precio": 19000,
   "imagen": "imagenesfenty/04.webp"
    },
    {
   "id": 5,
   "nombre": "match stix contour skinstick",
+   "descripcion": "Comodidad hidratante de un aceite de labios + brillo.",
   "precio": 20000,
   "imagen": "imagenesfenty/05.webp"
 },
 {
   "id": 6,
   "nombre": "rubor en polvo suede",
+   "descripcion": "Comodidad hidratante de un aceite de labios + brillo.",
   "precio": 15000,
   "imagen": "imagenesfenty/06.jpg"
 },
 {
   "id": 7,
   "nombre": "spray fijador y prolongador",
+   "descripcion": "Comodidad hidratante de un aceite de labios + brillo.",
   "precio": 21000,
   "imagen": "imagenesfenty/07.webp"
 },
 {
   "id": 8,
-  "nombre": "corrector fenty",
+  "nombre": "corrector fenty new out",
+   "descripcion": "Comodidad hidratante de un aceite de labios + brillo.",
   "precio": 19000,
   "imagen": "imagenesfenty/08.jpg"
 }
